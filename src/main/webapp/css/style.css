@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+body.clr1 {
+	background-image: linear-gradient(to right, #2E3192, #1BFFFF);
+}
+
+body.clr2 {
+	background-image: linear-gradient(to right, #614385, #516395);
+}
+
+body.clr3 {
+	background-image: linear-gradient(to right, #4E65FF, #92EFFD);
+}
+
+body.clr4 {
+	background-image: linear-gradient(to right, #764BA2, #667EEA);
+}
+
+body.clr5 {
+	background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8,
+		#9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1
+		);
+}
+
+body.clr6 {
+	background-image: linear-gradient(to left bottom, #49BEAA, #202A25, #CC2936, #89A1EF, #EF9CDA);
+}
+
+/* #49BEAA */
+/* #202A25 */
+/* #CC2936 */
+/* #89A1EF */
+/* #EF9CDA */

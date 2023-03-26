@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+body.clr1{
+	background-image: linear-gradient(to right,#2E3192, #1BFFFF);
+}
+
+body.clr2{
+	background-image: linear-gradient(to right,#614385, #516395);
+}
+
+body.clr3{
+	background-image: linear-gradient(to right,#4E65FF, #92EFFD);
+}
+
+body.clr4{
+	background-image: linear-gradient(to right,#764BA2, #667EEA);
+}

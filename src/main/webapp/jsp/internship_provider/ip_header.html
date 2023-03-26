@@ -1,0 +1,79 @@
+<style>
+.nav-link {
+	color: white !important;
+	font-size: 20px;
+/* 	font-family: Monotype, sans; */
+}
+
+a:hover {
+	color: #d90429 !important;
+}
+
+/* this is for dropdown */
+.dropdown-item {
+	color: orange !important;
+}
+
+.navbar {
+	background-color: #2b2d42 !important
+}
+</style>
+
+<div class="container-fluid" style="background-color: #d90429">
+	<h2 style="color: white; text-align: center; font-family: Montserrat"
+		class="mb-0" id="header">Internship Provider</h2>
+</div>
+
+<nav class="navbar navbar-expand-lg" style="background-color: #2b2d42 !important">
+	<div class="container-fluid">
+		<a href="/ihub/jsp/index.jsp"><img src="/ihub/images/logo.png"
+			style="width: 40px; height: 40px;" class="rounded-circle"></a> <a
+			class="navbar-brand" href="/ihub/jsp/index.jsp"
+			style="color: #d90429 !important;">Internship Hub</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+			data-bs-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+				<li class="nav-item"><a class="nav-link active"
+					aria-current="page" href="/ihub/jsp/internship_provider/ip_home.jsp">Home</a></li>
+
+				<li class="nav-item"><a class="nav-link active"
+					aria-current="page" href="/ihub/jsp/internship_provider/viewfeedback_ip.jsp">View Feedback</a></li>
+					
+					<li class="nav-item"><a class="nav-link active"
+					aria-current="page" href="/ihub/jsp/internship_provider/add_notice.jsp">Create Notice</a></li>
+
+				<li class="nav-item"><a class="nav-link active"
+					aria-current="page" href="/ihub/jsp/internship_provider/ip_editprofile.jsp">Edit Profile</a></li>
+
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle" href="#" role="button"
+					data-bs-toggle="dropdown" aria-expanded="false">Internships</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="/ihub/jsp/internship_provider/add_internship.jsp">Add</a></li>
+						<li><a class="dropdown-item" href="/ihub/jsp/internship_provider/select_internship.jsp">Update</a></li>
+						<li><a class="dropdown-item" href="/ihub/jsp/internship_provider/select_internship.jsp">Delete</a></li>
+					</ul></li>
+				
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle" href="#" role="button"
+					data-bs-toggle="dropdown" aria-expanded="false">Jobs</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="/ihub/jsp/internship_provider/job/add_job.jsp">Add</a></li>
+						<li><a class="dropdown-item" href="/ihub/jsp/internship_provider/job/select_job.jsp">Update</a></li>
+						<li><a class="dropdown-item" href="/ihub/jsp/internship_provider/job/select_job.jsp">Delete</a></li>
+					</ul></li>
+			</ul>
+			
+<!-- 			calling a servlet for logout (doGet() will be called) -->
+			<div class="nav-item"><a class="nav-link active"
+					aria-current="page" href="/ihub/IP_LogOut">Logout</a></div>
+					
+		</div>
+	</div>
+</nav>
